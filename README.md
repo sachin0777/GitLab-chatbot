@@ -209,6 +209,3 @@ Send a question and receive an AI-generated answer with sources.
 | Vector DB | Supabase (PostgreSQL + pgvector) |
 | Scraping | Python (BeautifulSoup, Requests) |
 
-## License
-
-MIT
