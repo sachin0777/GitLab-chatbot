@@ -1,0 +1,14 @@
+{
+  "name": "gitlab-rag-chatbot",
+  "version": "1.0.0",
+  "description": "GenAI RAG chatbot for GitLab documentation",
+  "type": "module",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@supabase/supabase-js": "^2.39.0",
+    "etag": "^1.8.1"
+  }
+}
