@@ -1,0 +1,13 @@
+# Ignore python scripts and dependencies, these are only run locally for data ingestion
+scripts/
+data/
+requirements.txt
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
