@@ -4,10 +4,11 @@
   "description": "GenAI RAG chatbot for GitLab documentation",
   "type": "module",
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   },
+
   "scripts": {
-    "build": "cd frontend && npm install && npm run build"
+    "build": "npm --prefix frontend install && npm --prefix frontend run build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
