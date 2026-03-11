@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "GenAI RAG chatbot for GitLab documentation",
   "type": "module",
-  "engines": {
-    "node": "24.x"
-  },
   "scripts": {
     "build": "cd frontend && npm install && npm run build"
   },
