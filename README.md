@@ -71,6 +71,14 @@ gitlab-rag-chatbot/
 - **Vercel CLI** — `npm i -g vercel`
 - API keys for: **Gemini**, **Groq**, **Supabase**
 
+## Screenshots
+
+### Valid GitLab Response
+![Valid Response](chat1.png)
+
+### Guardrail — Unrelated Question
+![Guardrail Response](chat2.png)
+
 ## Local Setup
 
 ### 1. Clone the repository
